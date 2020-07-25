@@ -21,7 +21,7 @@ public class Solution {
                 if (s[i] == '{' ||s[i] == '[' || s[i] == '(')
                 {
                     stack.Push(s[i]);
-                }1
+                }
                 else
                 {
                     if (stack.Count == 0)
