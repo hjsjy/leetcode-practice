@@ -10,7 +10,7 @@ public class Solution {
     public int ClimbStairs(int n) {
         int  p, q = 0;
         int result  = 1;
-
+//滚动数组
         for (int i = 1; i <= n; i++)
         {
             p = q ;
